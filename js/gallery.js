@@ -71,7 +71,7 @@ gallery.insertAdjacentHTML('afterbegin', createGallery.join(''));
 const galleryItems = document.querySelectorAll('.gallery-image');
 
 galleryItems.forEach(item => {
-  item.style.cursor = 'url(../Vector.png) 6 6, auto';
+  item.style.cursor = 'url(./Vector.png) 6 6, auto';
 });
 
 // the openModal function
